@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module1/Video1
-title: "CS 472: Module 1: Python Basics Part 1"
-excerpt: "CS 472: Module 1: Python Basics Part 1"
+title: "CS 372: Module 1: Python Basics Part 1"
+excerpt: "CS 372: Module 1: Python Basics Part 1"
 
 info:
   prev: "./Video0"
@@ -19,6 +19,7 @@ Please watch the video below, and click the <code>Next</code> button to continue
 
 <ul>
 <li>Arithmetic expressions in python work just as they do in in Java or C++.  So the +, -, /, and * operators do just what they did before.  The only new one is <code>a**b</code> which means raise <code>a</code> to the <code>b<SUP>th</SUP></code> power</li>
+<li>Dividing two numbers always leads to a float type, even if they are whole numbers.  <b>Say a//b to round down to an int type (I forgot to mention this in the video!)</b></li>
 <li>Variables also are assigned with <code>=</code>, but types are not specified when defining them.  Instead, they are inferred at runtime.  For instance, any time two numbers are divided, the result is <b>always</b> cast as a <code>float</code></li>
 <li>To see what type a variable currently is, write <code>type(variable)</code></li>
 </ul>

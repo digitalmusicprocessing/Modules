@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module1/Video2
-title: "CS 472: Module 1: Python Basics Part 2"
-excerpt: "CS 472: Module 1: Python Basics Part 2"
+title: "CS 372: Module 1: Python Basics Part 2"
+excerpt: "CS 372: Module 1: Python Basics Part 2"
 
 info:
   prev: "./Exercise1"

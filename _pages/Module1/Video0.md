@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module1/Video0
-title: "CS 472: Module 1: Python Basics Part 0"
-excerpt: "CS 472: Module 1: Python Basics Part 0"
+title: "CS 372: Module 1: Python Basics Part 0"
+excerpt: "CS 372: Module 1: Python Basics Part 0"
 
 info:
   next: "./Video1"
@@ -10,12 +10,19 @@ info:
 ---
 
 <p>
-Please watch the brief video demo below on longitudinal waves to understand how audio pulses move through the air to our microphones
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Bcqp6t4ybxU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Below are videos/notes reviewing what we did in class on the first day.  Feel free to watch them, and click <code>Next</code> button to continue when you're finished.
 </p>
 
+<h3>Longitudinal Waves</h3>
 <p>
-Also, feel free to play around with the <a href = "https://ursinus-cs472a-s2021.github.io/Week1_AudioReverseGame/">Audio Reverse Demo</a>.  Here's a brief video explaining it below:
+Below is the video of explaning how audio pulses move through the air as longitudinal waves to reach our microphones
+</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Bcqp6t4ybxU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<h3>Audio Reverse Game</h3>
+<p>
+Also, feel free to play around with the <a href = "../../CoursePage/ClassExercises/Week1/Week1_AudioReverseGame">Audio Reverse Demo</a>.  Here's a video explaining it from when we did it back in spring 2021
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j4P7p6rNaoI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
