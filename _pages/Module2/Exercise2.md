@@ -1,9 +1,9 @@
 ---
 layout: exercise_pyodide
 permalink: "Module2/Exercise2"
-title: "CS 472: Module 2: Part 2"
-excerpt: "CS 472: Module 2: Part 2"
-canvasasmtid: "111347"
+title: "CS 372: Module 2: Square Wave"
+excerpt: "CS 372: Module 2: Square Wave"
+canvasasmtid: "168956"
 canvaspoints: "1.5"
 canvashalftries: 5
 
