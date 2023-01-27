@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module4/Video1
-title: "CS 472 Module 4: Chirps, Vibrato, Sonification"
-excerpt: "CS 472 Module 4: Chirps, Vibrato, Sonification"
+title: "CS 372 Module 4: Chirps, Vibrato, Sonification"
+excerpt: "CS 372 Module 4: Chirps, Vibrato, Sonification"
 
 info:
   comments: "true"
