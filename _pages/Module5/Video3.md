@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module5/Video3
-title: "CS 472 Module 5: Equal Intensity Frequency Contours"
-excerpt: "CS 472 Module 5: Equal Intensity Frequency Contours"
+title: "CS 372 Module 5: Equal Intensity Frequency Contours"
+excerpt: "CS 372 Module 5: Equal Intensity Frequency Contours"
 
 info:
   prev: "./Exercise2"

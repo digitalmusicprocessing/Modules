@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module5/Video2
-title: "CS 472 Module 5: Loudness And Intensity"
-excerpt: "CS 472 Module 5: Loudness And Intensity"
+title: "CS 372 Module 5: Loudness And Intensity"
+excerpt: "CS 372 Module 5: Loudness And Intensity"
 
 info:
   prev: "./Exercise1"

@@ -1,9 +1,9 @@
 ---
 layout: exercise_pyodide
 permalink: "Module5/Exercise2"
-title: "CS 472: Module 5: Part 2"
-excerpt: "CS 472: Module 5: Part 2"
-canvasasmtid: "112340"
+title: "CS 372: Module 5: Part 2"
+excerpt: "CS 372: Module 5: Part 2"
+canvasasmtid: "170066"
 canvaspoints: "1.5"
 canvashalftries: 5
 

@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module5/Video1
-title: "CS 472 Module 5: Zero Crossings"
-excerpt: "CS 472 Module 5: Zero Crossings"
+title: "CS 372 Module 5: Zero Crossings"
+excerpt: "CS 372 Module 5: Zero Crossings"
 
 info:
   next: "./Exercise1"
