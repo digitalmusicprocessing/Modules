@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module6/Video3
-title: "CS 472 Module 6: Timbral Envelopes"
-excerpt: "CS 472 Module 6: Timbral Envelopes"
+title: "CS 372 Module 6: Timbral Envelopes"
+excerpt: "CS 372 Module 6: Timbral Envelopes"
 
 info:
   prev: "./Exercise2"

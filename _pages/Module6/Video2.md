@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module6/Video2
-title: "CS 472 Module 6: FM Synthesis Part 2"
-excerpt: "CS 472 Module 6: FM Synthesis Part 2"
+title: "CS 372 Module 6: FM Synthesis Part 2"
+excerpt: "CS 372 Module 6: FM Synthesis Part 2"
 
 info:
   prev: "./Exercise1"

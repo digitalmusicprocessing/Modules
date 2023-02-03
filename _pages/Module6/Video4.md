@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module6/Video4
-title: "CS 472 Module 6: Methods As Parameters"
-excerpt: "CS 472 Module 6: Methods As Parameters"
+title: "CS 372 Module 6: Methods As Parameters"
+excerpt: "CS 372 Module 6: Methods As Parameters"
 
 info:
   prev: "./Video3"

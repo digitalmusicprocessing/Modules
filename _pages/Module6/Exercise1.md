@@ -1,17 +1,17 @@
 ---
 layout: exercise_pyodide
 permalink: "Module6/Exercise1"
-title: "CS 472: Module 6: Exercise 1"
-excerpt: "CS 472: Module 6: Exercise 1"
-canvasasmtid: "112627"
-canvaspoints: "1.5"
+title: "CS 372: Module 6: Exercise 1"
+excerpt: "CS 372: Module 6: Exercise 1"
+canvasasmtid: "170234"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video1.html"
   next: "./Video2.html" 
-  points: 1.5
+  points: 2
   instructions: "<p>Fill in the code below to do fm synthesis in the <code>make_fm</code> method given the parameters.  The correct answer should sound like this</p><audio controls><source src=\"../images/Module6/Correct1.wav\" type=\"audio/wav\">
 Your browser does not support the audio element.
 </audio><p>In other words, it should retain only consonants</p>

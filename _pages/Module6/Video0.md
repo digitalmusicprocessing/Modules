@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module6/Video0
-title: "CS 472 Module 6: Friday Class Wrapup"
-excerpt: "CS 472 Module 6: Friday Class Wrapup"
+title: "CS 372 Module 6: Friday Class Wrapup"
+excerpt: "CS 372 Module 6: Friday Class Wrapup"
 
 info:
   next: "./Video1"
