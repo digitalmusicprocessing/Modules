@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module7/Video1
-title: "CS 472 Module 7: Echoes And Convolution Part 1"
-excerpt: "CS 472 Module 7: Echoes And Convolution Part 1"
+title: "CS 372 Module 7: Echoes And Convolution Part 1"
+excerpt: "CS 372 Module 7: Echoes And Convolution Part 1"
 
 info:
   next: "./Exercise1"
