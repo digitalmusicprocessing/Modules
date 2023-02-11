@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module9/Video2
-title: "CS 472 Module 9: The Real Discrete Fourier Transform (DFT)"
-excerpt: "CS 472 Module 9: The Real Discrete Fourier Transform (DFT)"
+title: "CS 372 Module 9: The Real Discrete Fourier Transform (DFT)"
+excerpt: "CS 372 Module 9: The Real Discrete Fourier Transform (DFT)"
 
 info:
   comments: "true"
