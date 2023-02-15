@@ -1,6 +1,6 @@
 ---
 layout: module
-permalink: /Module10/Video1
+permalink: /Module10/Video2
 title: "CS 372 Module 10: DFT of Square Waves And Sawtooth Waves"
 excerpt: "CS 372 Module 10: DFT of Square Waves And Sawtooth Waves"
 
