@@ -1,12 +1,11 @@
 ---
 layout: module
 permalink: /Module10/Video1
-title: "CS 472 Module 10: DFT of Square Waves And Sawtooth Waves"
-excerpt: "CS 472 Module 10: DFT of Square Waves And Sawtooth Waves"
+title: "CS 372 Module 10: DFT on Real Audio Data"
+excerpt: "CS 372 Module 10: DFT on Real Audio Data"
 
 info:
   comments: "true"
-  prev: "./Video0"
   next: "./Exercise1"
 ---
 
@@ -14,6 +13,6 @@ info:
 Please watch the video below, and click the <code>Next</code> button to continue when you're finished
 </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BXB7iNi4m7Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XfyPddhhXVw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe src = "../images/Module10/SquareWave.html" width="700" height="5900"></iframe>
+<iframe src = "../images/Module10/DFTFreq.html" width="700" height="2200"></iframe>
