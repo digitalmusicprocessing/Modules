@@ -6,7 +6,7 @@ excerpt: "CS 372 Module 11: Fourier Window Functions"
 
 info:
   comments: "true"
-  prev: "./Video1"
+  prev: "./Exercise1"
   next: "./Exercise2"
 ---
 
