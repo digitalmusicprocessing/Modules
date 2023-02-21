@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module11/Video3
-title: "CS 472 Module 11: Complex Numbers"
-excerpt: "CS 472 Module 11: Complex Numbers"
+title: "CS 372 Module 11: Complex Numbers"
+excerpt: "CS 372 Module 11: Complex Numbers"
 
 info:
   comments: "true"

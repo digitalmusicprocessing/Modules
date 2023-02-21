@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module11/Video2
-title: "CS 472 Module 11: Fourier Window Functions"
-excerpt: "CS 472 Module 11: Fourier Window Functions"
+title: "CS 372 Module 11: Fourier Window Functions"
+excerpt: "CS 372 Module 11: Fourier Window Functions"
 
 info:
   comments: "true"

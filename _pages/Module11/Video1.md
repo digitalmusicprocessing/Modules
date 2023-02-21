@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module11/Video1
-title: "CS 472 Module 11: STFT Time-Frequency Tradeoff"
-excerpt: "CS 472 Module 11: STFT Time-Frequency Tradeoff"
+title: "CS 372 Module 11: STFT Time-Frequency Tradeoff"
+excerpt: "CS 372 Module 11: STFT Time-Frequency Tradeoff"
 
 info:
   comments: "true"
