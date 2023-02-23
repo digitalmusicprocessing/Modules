@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module12/Video2
-title: "CS 472 Module 12: Complex DFT: Phasors, Geometric Interpretation"
-excerpt: "CS 472 Module 12: Phasors, Geometric Interpretation"
+title: "CS 372 Module 12: Complex DFT: Phasors, Geometric Interpretation"
+excerpt: "CS 372 Module 12: Phasors, Geometric Interpretation"
 
 info:
   comments: "true"

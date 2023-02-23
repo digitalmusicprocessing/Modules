@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module12/Video1
-title: "CS 472 Module 12: Complex DFT Definition"
-excerpt: "CS 472 Module 12: Complex DFT Definition"
+title: "CS 372 Module 12: Complex DFT Definition"
+excerpt: "CS 372 Module 12: Complex DFT Definition"
 
 info:
   comments: "true"
