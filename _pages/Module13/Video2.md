@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module13/Video2
-title: "CS 472 Module 13: Inverse Complex DFT"
-excerpt: "CS 472 Module 13: Inverse Complex DFT"
+title: "CS 372 Module 13: Inverse Complex DFT"
+excerpt: "CS 372 Module 13: Inverse Complex DFT"
 
 info:
   comments: "true"

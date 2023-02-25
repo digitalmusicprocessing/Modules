@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module13/Video1
-title: "CS 472 Module 13: Audio Aliasing"
-excerpt: "CS 472 Module 13: Audio Aliasing"
+title: "CS 372 Module 13: Audio Aliasing"
+excerpt: "CS 372 Module 13: Audio Aliasing"
 
 info:
   comments: "true"
