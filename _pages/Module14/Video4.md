@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module14/Video4
-title: "CS 472 Module 14: Zeropadding And FFT Convolve"
-excerpt: "CS 472 Module 14: Zeropadding And FFT Convolve"
+title: "CS 372 Module 14: Zeropadding And FFT Convolve"
+excerpt: "CS 372 Module 14: Zeropadding And FFT Convolve"
 
 info:
   prev: "./Exercise3"

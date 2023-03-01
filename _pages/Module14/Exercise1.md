@@ -1,17 +1,17 @@
 ---
 layout: exercise_pyodide
 permalink: "Module14/Exercise1"
-title: "CS 472: Module 14: Highpass Filter Exercise"
-excerpt: "CS 472: Module 14: Highpass Filter Exercise"
-canvasasmtid: "114693"
-canvaspoints: "1.5"
+title: "CS 372: Module 14: Highpass Filter Exercise"
+excerpt: "CS 372: Module 14: Highpass Filter Exercise"
+canvasasmtid: "171582"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video1.html"
   next: "./Video2.html" 
-  points: 1.5
+  points: 2
   instructions: "<p>We just saw how convolving with an array of all ones leads to a \"lowpass filter,\" which only preserves the low frequencies in the frequency domain.  As it turns out, the opposite can be done (only preserving high frequencies) when convolving with the array [1, -1].  Fill in the <code>highpass_filter</code> method below to convolve with this some specified number of times.  Each time, more low frequencies die out.  In the example, the original sound sounds like this </p><audio controls><source src=\"../images/Module14/femalecountdownorig.mp3\" type=\"audio/mpeg\"> Your browser does not support the audio element. </audio><p>A correct highpass implementation will sound like this</p><audio controls><source src=\"../images/Module14/femalecountdownhighpass.mp3\" type=\"audio/mpeg\"> Your browser does not support the audio element.</audio>"
   packages: "numpy"
   goals:

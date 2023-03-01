@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module14/Video2
-title: "CS 472 Module 14: Proof of Convolution/Multiplication Property"
-excerpt: "CS 472 Module 14: Proof of Convolution/Multiplication Property"
+title: "CS 372 Module 14: Proof of Convolution/Multiplication Property"
+excerpt: "CS 372 Module 14: Proof of Convolution/Multiplication Property"
 
 info:
   prev: "./Exercise1"

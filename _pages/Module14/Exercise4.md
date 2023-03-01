@@ -1,16 +1,16 @@
 ---
 layout: exercise_pyodide
 permalink: "Module14/Exercise4"
-title: "CS 472: Module 14: FFTConvolve Implementation Exercise"
-excerpt: "CS 472: Module 14: FFTConvolve Implementation Exercise"
-canvasasmtid: "114697"
-canvaspoints: "1.5"
+title: "CS 372: Module 14: FFTConvolve Implementation Exercise"
+excerpt: "CS 372: Module 14: FFTConvolve Implementation Exercise"
+canvasasmtid: "171587"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video4.html"
-  points: 1.5
+  points: 2
   instructions: "<p>Fill in the <code>myfftconvolve</code> method to implement a DFT-based convolution similar to what we just talked about, but where the length of the zeropadded array is rounded up to the nearest power of two above M+N-1, so that the Fast-Fourier Transform (FFT) algorithm can run.  Since you've rounded the length up, at the end, you'll need to cut down and return the slice 0:M+N-1.</p>"
   packages: "numpy"
   goals:

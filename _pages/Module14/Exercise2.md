@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module14/Exercise2
-title: "CS 472 Module 14: DFT of Autocorrelation"
-excerpt: "CS 472 Module 14: DFT of Autocorrelation"
+title: "CS 372 Module 14: DFT of Autocorrelation"
+excerpt: "CS 372 Module 14: DFT of Autocorrelation"
 
 info:
   prev: "./Video2"
@@ -10,4 +10,4 @@ info:
   comments: "true"
 ---
 
-<a href = "https://ursinus.instructure.com/courses/12301/quizzes/13601">Click here</a> to answer a question on Canvas, and then click the next button to continue once you are ready.
+<a href = "https://ursinus.instructure.com/courses/15546/quizzes/22010">Click here</a> to answer a question on Canvas, and then click the next button to continue once you are ready.

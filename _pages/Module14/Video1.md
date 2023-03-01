@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module14/Video1
-title: "CS 472 Module 14: Convolution/DFT Experiments"
-excerpt: "CS 472 Module 14: Convolution/DFT Experiments"
+title: "CS 372 Module 14: Convolution/DFT Experiments"
+excerpt: "CS 372 Module 14: Convolution/DFT Experiments"
 
 info:
   next: "./Exercise1"

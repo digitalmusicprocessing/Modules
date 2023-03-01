@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module14/Video3
-title: "CS 472 Module 14: Window Functions and Convolution/Multiplication Duality"
-excerpt: "CS 472 Module 14: Window Functions and Convolution/Multiplication Duality"
+title: "CS 372 Module 14: Window Functions and Convolution/Multiplication Duality"
+excerpt: "CS 372 Module 14: Window Functions and Convolution/Multiplication Duality"
 
 info:
   prev: "./Exercise2"
