@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module15/Video1
-title: "CS 472 Module 15: STFT-Based Filtering"
-excerpt: "CS 472 Module 15: STFT-Based Filtering"
+title: "CS 372 Module 15: STFT-Based Filtering"
+excerpt: "CS 372 Module 15: STFT-Based Filtering"
 
 info:
   prev: "./Video0"

@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module15/Video2
-title: "CS 472 Module 15: Z-Transform on Averages And Combs"
-excerpt: "CS 472 Module 15: Z-Transform on Averages And Combs"
+title: "CS 372 Module 15: Z-Transform on Averages And Combs"
+excerpt: "CS 372 Module 15: Z-Transform on Averages And Combs"
 
 info:
   prev: "./Exercise1"

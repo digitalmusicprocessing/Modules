@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module15/Video3
-title: "CS 472 Module 15: Z-Transform Feedback And Zero Phase"
-excerpt: "CS 472 Module 15: Z-Transform Feedback And Zero Phase"
+title: "CS 372 Module 15: Z-Transform Feedback And Zero Phase"
+excerpt: "CS 372 Module 15: Z-Transform Feedback And Zero Phase"
 
 info:
   prev: "./Exercise2"
