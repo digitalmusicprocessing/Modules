@@ -11,7 +11,7 @@ info:
   comments: "true"
   prev: "./Video3"
   points: 2
-  instructions: "<p>The purpose of this exercise is to get you practice with the units used for the frequency bins of the forward and inverse discrete fourier transform: cycles per interval.  Fill in an audio waveform <code>x</code> with a cosine that goes through 200 samples per interval, and a sine that goes through 400 samples per interval.</p><audio controls><source src=\"../images/Module10/correct.wav\" type=\"audio/wav\">
+  instructions: "<p>The purpose of this exercise is to get you practice with the units used for the frequency bins of the forward and inverse discrete fourier transform: cycles per interval.  Fill in an audio waveform <code>x</code> with a cosine that goes through 200 cycles per interval at an amplitude of 1, and a sine that goes through 400 cycles per interval at an amplitude of 1.</p><audio controls><source src=\"../images/Module10/correct.wav\" type=\"audio/wav\">
 Your browser does not support the audio element.
 </audio>
 "
@@ -47,7 +47,7 @@ files:
             sr = 8000
             # Add a cosine that goes through 200 cycles/interval with
             # amplitude 1, and a sine that goes through 400 cycles/interval
-            # with an amplitude of 2
+            # with an amplitude of 1
             N = sr//2 # Interval is 0.5 seconds long
             x = np.zeros(N)
             ## TODO: Fill this in
