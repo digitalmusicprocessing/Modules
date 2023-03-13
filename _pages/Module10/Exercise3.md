@@ -48,7 +48,7 @@ files:
             # Add a cosine that goes through 200 cycles/interval with
             # amplitude 1, and a sine that goes through 400 cycles/interval
             # with an amplitude of 2
-            N = sr//2 # Interval is 1 second long
+            N = sr//2 # Interval is 0.5 seconds long
             x = np.zeros(N)
             ## TODO: Fill this in
 
