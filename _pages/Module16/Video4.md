@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module16/Video4
-title: "CS 472 Module 16: Mel Filterbanks And Mel Spectrograms"
-excerpt: "CS 472 Module 16: Mel Filterbanks And Mel Spectrograms"
+title: "CS 372 Module 16: Mel Filterbanks And Mel Spectrograms"
+excerpt: "CS 372 Module 16: Mel Filterbanks And Mel Spectrograms"
 
 info:
   prev: "./Exercise3"

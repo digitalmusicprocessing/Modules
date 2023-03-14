@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module16/Video0
-title: "CS 472 Module 16: Numpy Tricks for Computing Audio Novelty Functions"
-excerpt: "CS 472 Module 16: Numpy Tricks for Computing Audio Novelty Functions"
+title: "CS 372 Module 16: Numpy Tricks for Computing Audio Novelty Functions"
+excerpt: "CS 372 Module 16: Numpy Tricks for Computing Audio Novelty Functions"
 
 info:
   next: "./Video1"

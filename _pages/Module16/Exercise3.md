@@ -1,17 +1,17 @@
 ---
 layout: exercise_pyodide
 permalink: "Module16/Exercise3"
-title: "CS 472: Module 16: Matrix Exercise"
-excerpt: "CS 472: Module 16: Matrix Exercise"
-canvasasmtid: "115141"
-canvaspoints: "1.5"
+title: "CS 372: Module 16: Matrix Exercise"
+excerpt: "CS 372: Module 16: Matrix Exercise"
+canvasasmtid: "172213"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video3"
   next: "./Video4"
-  points: 1.5
+  points: 2
   instructions: "Modify the <code>average_columns</code> code to compute the average of every column with a matrix multiplication.  The easiest way to do this is to create a row matrix of 1s that you multiply on the left.  This matrix multiplication will perform the sum of all elements in each column.  Then, you should element-wise divide the result by the number of rows to finalize the average.  Use the command <code>np.ones((1, num))</code> to create a row matrix with <code>num</code> elements, then use <code>np.dot(A, B)</code> to multiply two matrices."
   packages: "numpy"
   goals:

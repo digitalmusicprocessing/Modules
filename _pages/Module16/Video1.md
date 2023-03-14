@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module16/Video1
-title: "CS 472 Module 16: Audio Onsets And Sonification"
-excerpt: "CS 472 Module 16: Audio Onsets And Sonification"
+title: "CS 372 Module 16: Audio Onsets And Sonification"
+excerpt: "CS 372 Module 16: Audio Onsets And Sonification"
 
 info:
   prev: "./Video0"

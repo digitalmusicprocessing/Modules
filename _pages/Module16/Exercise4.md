@@ -1,16 +1,16 @@
 ---
 layout: exercise_pyodide
 permalink: "Module16/Exercise4"
-title: "CS 472: Module 16: Mel Filterbanks"
-excerpt: "CS 472: Module 16: Mel Filterbanks"
-canvasasmtid: "115275"
-canvaspoints: "2"
+title: "CS 372: Module 16: Mel Filterbanks"
+excerpt: "CS 372: Module 16: Mel Filterbanks"
+canvasasmtid: "172214"
+canvaspoints: "3"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video4" 
-  points: 2
+  points: 3
   instructions: "<p>Fill in the <code>get_mel_filterbank</code> method to fill in the mel filterbank in the rows of a matrix.  The code will apply it to a spectrogram of The Beatles, as shown below</p><p><img src = \"../images/Module16/S.png\"></p><p>If your code works properly, the mel spectrogram should look like this:</p><p><img src = \"../images/Module16/M.png\"></p>  <p><b>HINT:</b>The <code>np.linspace</code> command will help you to create the left and right sides of each triangle.</b>"
   packages: "numpy,matplotlib"
   goals:

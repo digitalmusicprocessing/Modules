@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module16/Video2
-title: "CS 472 Module 16: Autocorrelation for Tempo Estimation"
-excerpt: "CS 472 Module 16: Autocorrelation for Tempo Estimation"
+title: "CS 372 Module 16: Autocorrelation for Tempo Estimation"
+excerpt: "CS 372 Module 16: Autocorrelation for Tempo Estimation"
 
 info:
   prev: "./Exercise1"

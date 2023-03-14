@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module16/Video3
-title: "CS 472 Module 16: Matrix Multiplication And Bump Functions"
-excerpt: "CS 472 Module 16: Matrix Multiplication And Bump Functions"
+title: "CS 372 Module 16: Matrix Multiplication And Bump Functions"
+excerpt: "CS 372 Module 16: Matrix Multiplication And Bump Functions"
 
 info:
   prev: "./Exercise2"
