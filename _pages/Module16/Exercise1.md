@@ -10,6 +10,7 @@ canvashalftries: 5
 info:
   comments: "true"
   prev: "./Video1"
+  next: "./Video2"
   points: 1.5
   instructions: "The audio onset function is defined by looking for moments in time where the amplitudes go up, and this gives us a signal that peaks when beats start.  We can define a similar function called the \"audio offset function\" which peaks when energy is going down, and is 0 otherwise.  Modify the code in audio_offset_fn to change it from picking up on increases in amplitude to picking up on decreases in amplitude.  In particular, it should not register for positive changes, only for negative changes."
   packages: "numpy,matplotlib"
