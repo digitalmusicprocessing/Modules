@@ -10,6 +10,7 @@ canvashalftries: 5
 info:
   comments: "true"
   prev: "./Video3"
+  next: "./Video4"
   points: 2
   instructions: "Modify the <code>average_columns</code> code to compute the average of every column with a matrix multiplication.  The easiest way to do this is to create a row matrix of 1s that you multiply on the left.  This matrix multiplication will perform the sum of all elements in each column.  Then, you should element-wise divide the result by the number of rows to finalize the average.  Use the command <code>np.ones((1, num))</code> to create a row matrix with <code>num</code> elements, then use <code>np.dot(A, B)</code> to multiply two matrices."
   packages: "numpy"
