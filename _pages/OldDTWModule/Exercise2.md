@@ -1,6 +1,6 @@
 ---
 layout: module
-permalink: /Module17/Exercise2
+permalink: /Module17Old/Exercise2
 title: "CS 472 Module 17: Running Dynamic Time Warping"
 excerpt: "CS 472 Module 17: Running Dynamic Time Warping"
 

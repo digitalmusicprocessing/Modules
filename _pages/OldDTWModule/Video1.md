@@ -1,6 +1,6 @@
 ---
 layout: module
-permalink: /Module17/Video1
+permalink: /Module17Old/Video1
 title: "CS 472 Module 17: Warping Paths"
 excerpt: "CS 472 Module 17: Warping Paths"
 

@@ -1,6 +1,6 @@
 ---
 layout: module
-permalink: /Module17/Video0
+permalink: /Module17Old/Video0
 title: "CS 472 Module 17: Cross-Similarity Matrices"
 excerpt: "CS 472 Module 17: Cross-Similarity Matrices"
 

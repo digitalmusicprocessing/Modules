@@ -1,6 +1,6 @@
 ---
 layout: exercise_pyodide
-permalink: "Module17/Exercise1"
+permalink: "Module17Old/Exercise1"
 title: "CS 472: Module 17: Warping Path Costs"
 excerpt: "CS 472: Module 17: Warping Path Costs"
 canvasasmtid: "115612"

@@ -1,6 +1,6 @@
 ---
 layout: module
-permalink: /Module17/Video2
+permalink: /Module17Old/Video2
 title: "CS 472 Module 17: Dynamic Time Warping"
 excerpt: "CS 472 Module 17: Dynamic Time Warping"
 

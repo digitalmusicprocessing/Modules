@@ -10,7 +10,6 @@ canvashalftries: 5
 info:
   comments: "true"
   prev: "./Video1"
-  next: "./Video2"
   points: 1.5
   instructions: "<p>Create a matrix H with two rows to create a rhythm where a beat happens every 20 samples, but the beat sound switches every other beat.  In particular, the first column should be activated on 0, 40, 80, ..., and the second column should be activated on 20, 60, 100, ...  If you've done this correctly, the result should sound like this</p><audio controls><source src=\"../images/Module18/part1.mp3\" type=\"audio/mpeg\"> Your browser does not support the audio element. </audio>"
   packages: "numpy"
