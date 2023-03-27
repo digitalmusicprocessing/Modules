@@ -1,16 +1,16 @@
 ---
 layout: exercise_pyodide
 permalink: "Module18/Exercise1"
-title: "CS 472: Module 18: Matrix Decomposition"
-excerpt: "CS 472: Module 18: Matrix Decomposition"
-canvasasmtid: "117557"
-canvaspoints: "1.5"
+title: "CS 372: Module 18: Matrix Decomposition"
+excerpt: "CS 372: Module 18: Matrix Decomposition"
+canvasasmtid: "172946"
+canvaspoints: "2"
 canvashalftries: 5
 
 info:
   comments: "true"
   prev: "./Video1"
-  points: 1.5
+  points: 2
   instructions: "<p>Create a matrix H with two rows to create a rhythm where a beat happens every 20 samples, but the beat sound switches every other beat.  In particular, the first column should be activated on 0, 40, 80, ..., and the second column should be activated on 20, 60, 100, ...  If you've done this correctly, the result should sound like this</p><audio controls><source src=\"../images/Module18/part1.mp3\" type=\"audio/mpeg\"> Your browser does not support the audio element. </audio>"
   packages: "numpy"
   goals:

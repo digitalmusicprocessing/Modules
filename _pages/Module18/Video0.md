@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module18/Video0
-title: "CS 472 Module 18: Harmonic/Percussive Source Separation Notes"
-excerpt: "CS 472 Module 18: Harmonic/Percussive Source Separation Notes"
+title: "CS 372 Module 18: Harmonic/Percussive Source Separation Notes"
+excerpt: "CS 372 Module 18: Harmonic/Percussive Source Separation Notes"
 
 info:
   next: "./Video1"

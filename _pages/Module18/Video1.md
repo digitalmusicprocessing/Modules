@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module18/Video1
-title: "CS 472 Module 18: Matrix Activations for Modeling Spectrogram Decompositions"
-excerpt: "CS 472 Module 18: Matrix Activations for Modeling Spectrogram Decompositions"
+title: "CS 372 Module 18: Matrix Activations for Modeling Spectrogram Decompositions"
+excerpt: "CS 372 Module 18: Matrix Activations for Modeling Spectrogram Decompositions"
 
 info:
   prev: "./Video0"
