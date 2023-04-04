@@ -1,8 +1,8 @@
 ---
 layout: exercise_pyodide
-permalink: "Module19/Exercise1"
-title: "CS 372: Module 19: Shepard Tones"
-excerpt: "CS 372: Module 19: Shepard Tones"
+permalink: "Module17/Exercise1"
+title: "CS 372: Module 17: Shepard Tones"
+excerpt: "CS 372: Module 17: Shepard Tones"
 canvasasmtid: "173254"
 canvaspoints: "2"
 canvashalftries: 5
@@ -11,7 +11,7 @@ info:
   comments: "true"
   prev: "./Video1"
   points: 2
-  instructions: "<img src = \"../images/Module19/Chroma/Barber-pole-02.gif\"><p>Fill in the <code>make_shepard</code> method to create a chroma spectrogram <code>CS</code> which has 12 rows and <code>n_win</code> windows, and which represents the notes 0, 1, 2, ..., 10, 11, 0, 1, 2, ..., 10, 11, ... in sequence, holding each note for <code>hold</code> windows, until the end is reached.  To represent note number <code>p</code> at window index <code>i</code>, put a <code>1</code> at element <code>[p, i]</code> of the chroma spectrogram.  The audio below shows what you should hear in the inverted STFT once this is working properly</p><audio controls><source src=\"../images/Module19/Chroma/ShepardRef.wav\" type=\"audio/wav\"> Your browser does not support the audio element. </audio>"
+  instructions: "<img src = \"../images/Module17/Chroma/Barber-pole-02.gif\"><p>Fill in the <code>make_shepard</code> method to create a chroma spectrogram <code>CS</code> which has 12 rows and <code>n_win</code> windows, and which represents the notes 0, 1, 2, ..., 10, 11, 0, 1, 2, ..., 10, 11, ... in sequence, holding each note for <code>hold</code> windows, until the end is reached.  To represent note number <code>p</code> at window index <code>i</code>, put a <code>1</code> at element <code>[p, i]</code> of the chroma spectrogram.  The audio below shows what you should hear in the inverted STFT once this is working properly</p><audio controls><source src=\"../images/Module17/Chroma/ShepardRef.wav\" type=\"audio/wav\"> Your browser does not support the audio element. </audio>"
   packages: "numpy"
   goals:
     - Manipulate chroma filterbank coordinates to create Shepard tones

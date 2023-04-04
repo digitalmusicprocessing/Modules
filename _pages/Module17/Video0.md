@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module19/Video0
-title: "CS 372 Module 19: Inverting Mel Spectrograms"
-excerpt: "CS 372 Module 19: Inverting Mel Spectrograms"
+permalink: /Module17/Video0
+title: "CS 372 Module 17: Inverting Mel Spectrograms"
+excerpt: "CS 372 Module 17: Inverting Mel Spectrograms"
 
 info:
   next: "./Video1"
@@ -18,4 +18,4 @@ Watch the video below, then click the <b>Next</b> button to proceed
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module19/MelSpaced.html" width="800" height="5400">
+<iframe src = "../images/Module17/MelSpaced.html" width="800" height="5400">

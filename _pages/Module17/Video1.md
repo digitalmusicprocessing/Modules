@@ -1,8 +1,8 @@
 ---
 layout: module
-permalink: /Module19/Video1
-title: "CS 372 Module 19: Chroma Filterbanks And Shepard Tones"
-excerpt: "CS 372 Module 19: Chroma Filterbanks And Shepard Tones"
+permalink: /Module17/Video1
+title: "CS 372 Module 17: Chroma Filterbanks And Shepard Tones"
+excerpt: "CS 372 Module 17: Chroma Filterbanks And Shepard Tones"
 
 info:
   next: "./Exercise1"
@@ -18,4 +18,4 @@ Watch the video below, then click the <b>Next</b> button to proceed
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module19/Chroma/Chroma.html" width="800" height="3900">
+<iframe src = "../images/Module17/Chroma/Chroma.html" width="800" height="3900">
