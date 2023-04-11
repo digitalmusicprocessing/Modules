@@ -1,0 +1,3 @@
+[submodule "images/Module20/ColabTest"]
+	path = images/Module20/ColabTest
+	url = https://github.com/ursinus-cs372-s2023/ColabTest.git
