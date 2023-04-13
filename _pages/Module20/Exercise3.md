@@ -6,6 +6,7 @@ excerpt: "CS 372 Module 20: Google Colab Test"
 
 info:
   prev: "./Video2"
+  next: "./Video3"
   comments: "true"
 ---
 
