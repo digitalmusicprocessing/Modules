@@ -17,7 +17,7 @@ We'll be focusing on deep neural networks in this unit, but if you want to know 
 </p>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tVKAKxXEzhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/puT84YmY16E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 <h2>Notes</h2>
