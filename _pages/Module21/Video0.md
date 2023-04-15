@@ -6,6 +6,7 @@ excerpt: "CS 372 Module 21: Linearly Separating Square Waves from Sawtooth Waves
 
 info:
   comments: "true"
+  next: "./Video1"
 ---
 
 <p>
