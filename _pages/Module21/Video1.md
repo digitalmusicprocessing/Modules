@@ -1,8 +1,8 @@
 ---
 layout: module
 permalink: /Module21/Video1
-title: "CS 372 Module 21: Linearly Separating Square Waves from Sawtooth Waves"
-excerpt: "CS 372 Module 21: Linearly Separating Square Waves from Sawtooth Waves"
+title: "CS 372 Module 21: Feedforward Fully Connected Neural Nets"
+excerpt: "CS 372 Module 21: Feedforward Fully Connected Neural Nets"
 
 info:
   comments: "true"
@@ -26,4 +26,4 @@ You may also want to check out Grant Sanderson's video on this topic:
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module21/NeuralNets.html" width="800" height="6000">
+<iframe src = "../images/Module21/NeuralNets.html" width="800" height="5800">
