@@ -1,9 +1,10 @@
 ---
-layout: exercise_python
+layout: exercise
+language: "python"
 permalink: "Module1/Exercise3"
 title: "CS 372: Module 1: Python Methods And Conditionals"
 excerpt: "CS 372: Module 1: Python Methods And Conditionals"
-canvasasmtid: "168272"
+canvasasmtid: "219624"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -33,7 +34,7 @@ processor:
       feedback: "Try again.  Don't forget to return <code>None</code> if the pressure is not 1" 
  
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -42,7 +43,7 @@ files:
          ## TODO: Define the is_liquid method here
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -55,4 +56,5 @@ files:
         print(is_liquid(100, 2), end='.')
         print(is_liquid(90, 3), end='.')
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---

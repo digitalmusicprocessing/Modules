@@ -1,9 +1,10 @@
 ---
-layout: exercise_python
+layout: exercise
+language: "python"
 permalink: "Module1/Exercise2"
 title: "CS 372: Module 1: Python Slicing"
 excerpt: "CS 372: Module 1: Python Slicing"
-canvasasmtid: "168271"
+canvasasmtid: "219625"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -31,7 +32,7 @@ processor:
       feedback: "Try again.  Looks like the filenames are still in wav format." 
  
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -50,7 +51,7 @@ files:
              return result
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -61,4 +62,5 @@ files:
         print(convert_format("justinbieber.wav"), end='_')
         print(convert_format("drscoville.wav"))
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---

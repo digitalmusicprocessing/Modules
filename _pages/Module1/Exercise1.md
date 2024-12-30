@@ -1,9 +1,10 @@
 ---
-layout: exercise_python
+layout: exercise
+language: "python"
 permalink: "Module1/Exercise1"
 title: "CS 372: Module 1: Python Arithmetic Operations"
 excerpt: "CS 372: Module 1: Python Arithmetic Operations"
-canvasasmtid: "168269"
+canvasasmtid: "219623"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -34,7 +35,7 @@ processor:
       feedback: "Try again.  It looks like you haven't updated num_quarters or num_nickels" 
  
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -56,7 +57,7 @@ files:
              print("{} Quarters, {} Nickels".format(num_quarters, num_nickels), end='.')
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -67,4 +68,5 @@ files:
         make_change(66)
         make_change(25)
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---
