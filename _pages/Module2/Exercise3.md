@@ -13,12 +13,12 @@ info:
   prev: "./Video3"
   next: "./Video4"
   points: 2
-  instructions: "<p>Create a sequence of square waves to make the beginning of the happy birthday tune:<ul><li>0.25 seconds of pitch 0</li><li>0.25 seconds of silence</li><li>0.25 seconds of pitch 0</li><li>0.25 seconds of silence</li><li>1 second of pitch 2</li><li>1 second of pitch 0</li><li>1 second of pitch 5</li><li>2 seconds of pitch 4</li></ul>Be very careful that you use indices into your array slices that are integers!  Make use of the provided <code>get_cosine</code> method to help you</p><p>If you're having trouble, click on the <code>reference.wav</code> file to listen to what this should sound like.</p>"
+  instructions: "<p>Create a sequence of square waves to make the beginning of the happy birthday tune:<ul><li>0.25 seconds of pitch 0</li><li>0.25 seconds of silence</li><li>0.25 seconds of pitch 0</li><li>0.25 seconds of silence</li><li>1 second of pitch 2</li><li>1 second of pitch 0</li><li>1 second of pitch 5</li><li>2 seconds of pitch 4</li></ul>You can accomplish this by making one big array that you assign slices to, or by using the <code><a href = \"https://numpy.org/doc/stable/reference/generated/numpy.concatenate.html\">np.concatenate</a></code> method.  If you use slices, be very careful that you use integer indices!  Make use of the provided <code>get_cosine</code> method to help you</p><p>If you're having trouble, click on the <code>reference.wav</code> file to listen to what this should sound like.</p>"
   packages: "numpy"
   goals:
     - To use numpy operations to create audio
     - To apply formulae for creating sinusoids and related functions
-    - To assign sub-arrays to parst of numpy arrays with slices
+    - To construct larger signals out of smaller signals
     
 processor:  
   correctfeedback: "Correct!!" 
