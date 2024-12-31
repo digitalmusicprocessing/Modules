@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module2/Exercise2"
 title: "CS 372: Module 2: Square Wave"
 excerpt: "CS 372: Module 2: Square Wave"
-canvasasmtid: "168956"
+canvasasmtid: "219632"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -30,10 +31,10 @@ processor:
   incorrectchecks:
     - incorrectcheck: |
         audioStr == zeroRef
-      feedback: "Try again.  It looks like you filled in the square wave to the y variable yet." 
+      feedback: "Try again.  It looks like you haven't filled in the square wave to the y variable yet." 
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -47,7 +48,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -55,4 +56,5 @@ files:
     code: |
         save_audio_js(y, sr)
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---
