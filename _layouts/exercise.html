@@ -277,9 +277,12 @@ For example, Professor Tralie's ID is ctralie.
 
 If you are not an Ursinus student, that's fine!
 Just make something up, and you can still run everything</div>
+<p id="getCredit"></p>
                     <div class="wrap-text-container">
+                        
                         <label for="wrap-text">Wrap Text</label>
                         <input type="checkbox" id="wrap-text" checked>
+                        
                     </div>
                     <button id="clear-console">Clear Console</button>
                     <div class="output-container" id="output-container"> 
@@ -2002,7 +2005,15 @@ def pyodide_print(s):
 
                         let url = `{% if layout.formlink %}{{ layout.formlink }}{% else %}{{ site.formlink }}{% endif %}` + encryptedContent;
                         console.log("len(url)", url.length);
-                        window.location.href = url; // window.open(url);                     
+                        let getCredit = document.getElementById("getCredit");
+                        if (halfcredit) {
+                            getCredit.innerHTML = "Sorry you've been having trouble with this!  To reward you for your efforts so far, <a href = \"" + url + "\" target = \"_blank\">Click here</a> to get half credit on canvas";
+                        }
+                        else {
+                            getCredit.innerHTML = "Congratulations!  <a href = \"" + url + "\" target = \"_blank\">Click here</a> to get full credit on canvas";
+                            console.log("getCredit.innerHTML", getCredit.innerHTML);
+                        }
+                        //window.location.href = url; // window.open(url);                     
                         
                         // download encrypted submission version, if desired
                         if(downloadblob) {

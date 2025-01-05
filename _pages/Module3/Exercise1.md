@@ -12,10 +12,7 @@ info:
   comments: "true"
   prev: "./Video2"
   points: 2
-  instructions: "<p>Create a for loop that synthesizes a base frequency of 220hz and its first 19 harmonics in our naive plucked string model on the previous page (there should be 20 cosines total).</p>  <p>To help you out, below is the sound you should be getting</p> <audio controls>
-  <source src=\"../images/Module3/Correct1.wav\" type=\"audio/wav\">
-Your browser does not support the audio element.
-</audio>"
+  instructions: "<p>Create a for loop that synthesizes a base frequency of 220hz and its first 19 harmonics in our naive plucked string model on the previous page (there should be 20 cosines total).</p>  <p>To help you out, below is the sound you should be getting</p> <table><tr><td><audio controls><source src=\"../images/Module3/Correct1.wav\" type=\"audio/wav\">Your browser does not support the audio element.</audio></td></tr></table>"
   packages: "numpy"
   goals:
     - To use numpy operations to create audio
