@@ -42,18 +42,6 @@ processor:
     pyodide.globals.set("female_samples", female_samples);
 
 files:
-  - filename: "audio.py"
-    name: audio
-    ismain: false
-    isreadonly: true
-    isvisible: false
-    nosend: true
-    code: | 
-        def get_female_countdown():
-            sr = 8000
-            x = np.array([float(s) for s in female_samples.split(",")])
-            return x, sr
-
   - filename: "student.py"
     name: driver
     ismain: false
@@ -84,13 +72,16 @@ files:
             return y
 
 
-
   - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
     isvisible: true
     code: |
+        def get_female_countdown():
+            sr = 8000
+            x = np.array([float(s) for s in female_samples.split(",")])
+            return x, sr
         x, sr = get_female_countdown()
         y = cut_quiet(x, 400, 60)
         save_audio_js(y, sr)

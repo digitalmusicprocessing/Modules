@@ -24,5 +24,5 @@ When you are finished, upload the (1)original tune, (2)the impulse response, and
 </p>
 
 <p>
-You'll have some extra time to do this, so it's not due until Friday evening 2/10.
+You'll have some extra time to do this, so it's not due until Friday evening 2/12.
 </p>
