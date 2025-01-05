@@ -373,6 +373,7 @@ def pyodide_print(s):
             </script>
             <script>
                 {% if page.language == "pyodide" %}
+                var pyodide = null;
                 var imgStr = "";
                 var audioStr = "";
                 {% endif %}
@@ -1597,7 +1598,7 @@ def pyodide_print(s):
                             packages = "{{page.info.packages}}".split(",");
                         }
                         {% endif %}
-                        let pyodide = null;
+                        pyodide = null;
                         let pyodideLoaded = false;
 
                         async function setupPyodide() {
@@ -1894,6 +1895,9 @@ def pyodide_print(s):
                             if (!pyodideLoaded) {
                                 await pyodidePromise;
                             }
+                            // Setup pyodide stuff that should run before student code (global variables, etc)
+                            {{ page.processor.pyodidesetup | strip }}
+
                             let student_code = editorText + "\n\n" + document.getElementById("pyodideBoilerplate").innerHTML + "\n\n" + mainText;
                             console.log(student_code);
                             pyodide.runPython(student_code);
@@ -2007,11 +2011,11 @@ def pyodide_print(s):
                         console.log("len(url)", url.length);
                         let getCredit = document.getElementById("getCredit");
                         if (halfcredit) {
-                            getCredit.innerHTML = "Sorry you've been having trouble with this!  To reward you for your efforts so far, <a href = \"" + url + "\" target = \"_blank\">Click here</a> to get half credit on canvas";
+                            getCredit.innerHTML = "<b>Sorry you've been having trouble with this!  To reward you for your efforts so far, <a href = \"" + url + "\" target = \"_blank\">Click here</a> to get half credit on canvas</b>";
                         }
                         else {
-                            getCredit.innerHTML = "Congratulations!  <a href = \"" + url + "\" target = \"_blank\">Click here</a> to get full credit on canvas";
-                            console.log("getCredit.innerHTML", getCredit.innerHTML);
+                            getCredit.innerHTML = "<b>Congratulations!  <a href = \"" + url + "\" target = \"_blank\">Click here</a> to get full credit on canvas";
+                            console.log("getCredit.innerHTML</b>", getCredit.innerHTML);
                         }
                         //window.location.href = url; // window.open(url);                     
                         
