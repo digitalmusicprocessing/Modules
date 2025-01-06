@@ -1,9 +1,10 @@
 ---
-layout: exercise_python
+layout: exercise
+language: "python"
 permalink: "Module9/Exercise2"
 title: "CS 372: Module 9: Exercise 2"
 excerpt: "CS 372: Module 9: Exercise 2"
-canvasasmtid: "170701"
+canvasasmtid: "219643"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -11,7 +12,7 @@ info:
   comments: "true"
   prev: "./Video2"
   points: 1.5
-  instructions: "<p>So far we've been talking about the frequencies in terms of integer number of cycles over a particular interval, but if we know how many samples are in that interval and what the sample rate is, we can devise a formula to determine what the frequency actually is in hz.  This will move us towards being able to detect notes in real audio using the DFT.  In this exercise, given a particular frequency index in either the cosine or sine array of DFT dot products, as well as the number of samples in the signal and the sample rate of the signal, return the frequency associated to the sine or cosine at a particular index $k$ in hz.</p><p><b>Hint: The equation is in terms of k, N, and sr only.  You want to end up with hz, which is cycles per second.  k is the number of cycles / interval.  N is the number of samples / interval.  sr is the number of samples / second.  So you have to arrange them into an equation that ends up in cycles / second.</p>"
+  instructions: "<p>So far we've been talking about the frequencies in terms of integer number of cycles over a particular interval, but if we know how many samples are in that interval and what the sample rate is, we can devise a formula to determine what the frequency actually is in hz.  This will move us towards being able to detect notes in real audio using the DFT.  In this exercise, given a particular frequency index in either the cosine or sine array of DFT dot products, as well as the number of samples in the signal and the sample rate of the signal, return the frequency associated to the sine or cosine at a particular index $k$ in hz.</p><p><b>Hint:</b> The equation is in terms of k, N, and sr only.  You want to end up with hz, which is cycles per second.  k is the number of cycles / interval.  N is the number of samples / interval.  sr is the number of samples / second.  So you have to arrange them into an equation that ends up in cycles / second.</p>"
   packages: "numpy"
   goals:
     - To translate from indices of the DFT to frequencies of the DFT
@@ -29,7 +30,7 @@ processor:
         pos.includes("0.0.0")
       feedback: "Try again.  You need to return the frequency in hz, not 0"
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -54,11 +55,12 @@ files:
                   Sample rate
               Returns
               -------
+              Frequency, in hz, associated to k
               """
               return 0 ## TODO: This is a dummy value
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -70,4 +72,5 @@ files:
         print(res)
         
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---

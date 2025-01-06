@@ -17,12 +17,12 @@ info:
 When you are finished, upload the (1)original tune, (2)the impulse response, and (3) the convolution of the two to the 
 </p>
 <p>
-<code>#module7-statement</code>
+<code>#7-musicalstatement</code>
 </p>
 <p>
  channel on discord.
 </p>
 
 <p>
-You'll have some extra time to do this, so it's not due until Friday evening 2/12.
+You'll have some extra time to do this, so it's not due until Friday evening 2/14.
 </p>

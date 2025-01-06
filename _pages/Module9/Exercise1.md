@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module9/Exercise1"
 title: "CS 372: Module 9: Exercise 1"
 excerpt: "CS 372: Module 9: Exercise 1"
-canvasasmtid: "170700"
+canvasasmtid: "219642"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -25,17 +26,17 @@ processor:
   feedbackprocess: | 
       
   correctcheck: |
-    pyodide.globals.res == "1,1,0,0,1"
+    pyodide.globals.get("res") == "1,1,0,0,1"
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.res == "0,0,0,0,0"
+        pyodide.globals.get("res") == "0,0,0,0,0"
       feedback: "Try again.  It looks like you aren't returning True for things that are actually there."
     - incorrectcheck: |
-        pyodide.globals.res == "0,0,0,0,1"
+        pyodide.globals.get("res") == "0,0,0,0,1"
       feedback: "Try again.  It's OK if either a sine OR a cosine is there." 
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -71,9 +72,7 @@ files:
             return False
 
 
-
-
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -89,4 +88,5 @@ files:
             if i < len(resarr)-1:
                 res += ","
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---
