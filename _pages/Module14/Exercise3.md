@@ -10,4 +10,4 @@ info:
   comments: "true"
 ---
 
-<a href = "https://ursinus.instructure.com/courses/15546/quizzes/22011">Click here</a> to answer a question on Canvas, and then click the next button to continue once you are ready.
+<a href = "https://ursinus.instructure.com/courses/19292/quizzes/28300">Click here</a> to answer a question on Canvas, and then click the next button to continue once you are ready.

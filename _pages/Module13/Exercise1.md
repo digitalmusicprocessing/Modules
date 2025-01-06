@@ -10,4 +10,4 @@ info:
   prev: "./Video1"
 ---
 
-<a href = "https://ursinus.instructure.com/courses/15546/quizzes/21990">Click here</a> to complete a brief question on Canvas, then press next when you are finished.
+<a href = "https://ursinus.instructure.com/courses/19292/quizzes/28304">Click here</a> to complete a brief question on Canvas, then press next when you are finished.

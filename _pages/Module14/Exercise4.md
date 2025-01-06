@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module14/Exercise4"
 title: "CS 372: Module 14: FFTConvolve Implementation Exercise"
 excerpt: "CS 372: Module 14: FFTConvolve Implementation Exercise"
-canvasasmtid: "171587"
+canvasasmtid: "219615"
 canvaspoints: "2"
 canvashalftries: 5
 
@@ -24,14 +25,14 @@ processor:
   feedbackprocess: | 
     
   correctcheck: |
-    pyodide.globals.correct
+    pyodide.globals.get("correct")
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.lenconv1 == 512
+        pyodide.globals.get("lenconv1") == 512
       feedback: "Try again.  It looks like you may have forgotten to slice the return array down to the first M+N-1 samples." 
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -68,7 +69,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -84,5 +85,7 @@ files:
         if len(conv1) == len(conv2): 
             correct = np.allclose(conv1, conv2)
         
-        
+
+openFilesOnLoad: ["main.py", "student.py"]
 ---
+

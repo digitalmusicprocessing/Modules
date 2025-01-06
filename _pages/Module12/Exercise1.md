@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module12/Exercise1"
 title: "CS 372: Module 12: Exercise 1"
 excerpt: "CS 372: Module 12: Exercise 1"
-canvasasmtid: "171348"
+canvasasmtid: "219613"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -24,14 +25,14 @@ processor:
   feedbackprocess: | 
       
   correctcheck: |
-    pyodide.globals.idx == "3"
+    pyodide.globals.get("idx") == "3"
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.idx == "4"
+        pyodide.globals.get("idx") == "4"
       feedback: "Be careful!  Make sure you're taking the absolute value / magnitude (np.abs) and not just the real component"
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -39,14 +40,14 @@ files:
     height: 600
     code: | 
         import numpy as np
-        def max_freq(X):
+        def max_freq(F):
             """
             Compute the index of the maximum amplitude frequency
             in complex DFT coefficients
             
             Parameters
             ----------
-            X: ndarray(K, dtype=np.complex)
+            F: ndarray(K, dtype=np.complex)
                 The first K coefficients of the complex DFT
             
             Returns
@@ -58,9 +59,7 @@ files:
             return 0 ## TODO: This is a dummy value
 
 
-
-
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -71,4 +70,5 @@ files:
         y = np.cos(2*np.pi*3*n + np.pi/4) + 0.8*np.cos(2*np.pi*4*n)
         idx = max_freq(np.fft.fft(y)[0:10])
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---
