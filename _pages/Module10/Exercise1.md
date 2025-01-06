@@ -11,4 +11,4 @@ info:
 ---
 
 
-<a href = "https://ursinus.instructure.com/courses/15546/quizzes/21906">Click here</a> to complete two brief multiple choice questions on canvas, and then click next to continue.
+<a href = "https://ursinus.instructure.com/courses/19292/quizzes/28308">Click here</a> to complete two brief multiple choice questions on canvas, and then click next to continue.
