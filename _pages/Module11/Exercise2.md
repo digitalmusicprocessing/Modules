@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module11/Exercise2"
 title: "CS 372: Module 11: Blackman-Harris Window"
 excerpt: "CS 372: Module 10: Blackman-Harris Window"
-canvasasmtid: "171269"
+canvasasmtid: "219612"
 canvaspoints: "2"
 canvashalftries: 5
 
@@ -21,26 +22,11 @@ processor:
   correctfeedback: "Correct!!" 
   incorrectfeedback: "Try again"
   submitformlink: false
-  feedbackprocess: | 
-    function compareArrays(x, y) {
-      let res = true;
-      if (x.length != y.length) {
-        res = false;
-      }
-      for (let i = 0; i < x.length && i < y.length; i++) {
-        if (x[i] != y[i]) {
-          res = false;
-        }
-      }
-      return res;
-    }
-    let w1ref = [ -1.3877787807814457e-17, 0.0000033885058309951477, 0.000013554576124077955, 0.000030499869156250248, 0.000054227148311658535, 0.00008474028146535084, 0.00012204424012042525, 0.0001661450982995416, 0.00021705003118953348, 0.0002747673135410772 ];
-    let w2ref = [-1.3877787807814457e-17, 0.000013554576124077955, 0.000054227148311658535, 0.00012204424012042525, 0.00021705003118953348, 0.00033930631782219667, 0.0004888924578373699, 0.0006659052997262799, 0.000870459096159959, 0.0011026854019042381];
   correctcheck: |
-    compareArrays(pyodide.globals.w1, w1ref) && compareArrays(pyodide.globals.w2, w2ref)
+    pyodide.globals.get("res") == "-0.0000000000,0.0000033885,0.0000135546,0.0000304999,0.0000542271,0.0000847403,0.0001220442,0.0001661451,0.0002170500,0.0002747673:-0.0000000000,0.0000135546,0.0000542271,0.0001220442,0.0002170500,0.0003393063,0.0004888925,0.0006659053,0.0008704591,0.0011026854"
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
@@ -57,7 +43,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -65,5 +51,9 @@ files:
     code: |
         w1 = get_blackman_harris(1024)[0:10]
         w2 = get_blackman_harris(512)[0:10]
+        w1 = ",".join(["{:.10f}".format(f) for f in w1])
+        w2 = ",".join(["{:.10f}".format(f) for f in w2])
+        res = "{}:{}".format(w1, w2)
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---

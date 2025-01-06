@@ -10,7 +10,7 @@ info:
 ---
 
 <p>
-Watch the two videos below from Khan Academy that explain what happens when we introduce the number <b>i</b> to our number system.  Then complete a few brief questions at <a href = "https://ursinus.instructure.com/courses/15546/quizzes/21956">this link</a>
+Watch the two videos below from Khan Academy that explain what happens when we introduce the number <b>i</b> to our number system.  Then complete a few brief questions at <a href = "https://ursinus.instructure.com/courses/19292/quizzes/28307">this link</a>
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SP-YJe7Vldo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

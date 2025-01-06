@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module11/Exercise1"
 title: "CS 372: Module 11: STFT Window Extraction"
 excerpt: "CS 372: Module 11: STFT Window Extraction"
-canvasasmtid: "171268"
+canvasasmtid: "219611"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -21,36 +22,20 @@ processor:
   correctfeedback: "Correct!!" 
   incorrectfeedback: "Try again"
   submitformlink: false
-  feedbackprocess: | 
-    let x1ref = [50, 51, 52, 53, 54, 55, 56, 57, 58, 59];
-    let x2ref = [160, 161, 162, 163, 164, 165, 166, 167, 168, 169];
-    function compareArrays(x, y) {
-      let res = true;
-      if (x.length != y.length) {
-        res = false;
-      }
-      for (let i = 0; i < x.length && i < y.length; i++) {
-        if (x[i] != y[i]) {
-          res = false;
-        }
-      }
-      return res;
-    }
 
   correctcheck: |
-    compareArrays(pyodide.globals.x1, x1ref) && compareArrays(pyodide.globals.x2, x2ref)
+    pyodide.globals.get("res") == "50,51,52,53,54,55,56,57,58,59:160,161,162,163,164,165,166,167,168,169"
   incorrectchecks:
     - incorrectcheck: |
         false
       feedback: "Try again.  It looks like you haven't filled in the audio yet." 
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
     isvisible: true
-    height: 600
     code: | 
         import numpy as np
         def get_window(x, win, hop, j):
@@ -75,7 +60,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -85,6 +70,10 @@ files:
         win = 10
         hop = 5
         x1 = get_window(x, win, hop, 10)
+        x1 = ",".join([str(f) for f in x1])
         x2 = get_window(x, win, hop, 32)
+        x2 = ",".join([str(f) for f in x2])
+        res = "{}:{}".format(x1, x2)
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---
