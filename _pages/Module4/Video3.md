@@ -6,7 +6,7 @@ excerpt: "CS 372 Module 4: Chirps, Vibrato, Sonification"
 
 info:
   comments: "true"
-  prev: "./Exercise1"
+  prev: "./Video2"
   next: "./Video3"
 ---
 
