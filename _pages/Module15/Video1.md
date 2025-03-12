@@ -18,4 +18,4 @@ Please watch the video below, and click the <code>Next</code> button to continue
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module15/IntroZTransform.html" width="700" height="2100">
+<iframe src = "../images/Module15/IntroZTransform.html" width="700" height="6200">
