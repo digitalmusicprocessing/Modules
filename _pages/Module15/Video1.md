@@ -6,7 +6,7 @@ excerpt: "CS 372 Module 15: STFT-Based Filtering"
 
 info:
   prev: "./Video0"
-  next: "./Exercise1"
+  next: "./Video2"
   comments: "true"
 ---
 
