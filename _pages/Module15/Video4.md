@@ -1,6 +1,6 @@
 ---
 layout: module
-permalink: /Module15/Video3
+permalink: /Module15/Video4
 title: "CS 372 Module 15: Z-Transform Feedback And Zero Phase"
 excerpt: "CS 372 Module 15: Z-Transform Feedback And Zero Phase"
 
