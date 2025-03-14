@@ -5,7 +5,7 @@ title: "CS 372 Module 15: DFT-Based Filter Design"
 excerpt: "CS 372 Module 15: DFT-Based Filter Design"
 
 info:
-  prev: "./Video3"
+  prev: "./Video2"
   next: "./Video4"
   comments: "true"
 ---
