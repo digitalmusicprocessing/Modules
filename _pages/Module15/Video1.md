@@ -11,7 +11,7 @@ info:
 ---
 
 <p>
-Please watch the video below, and click the <code>Next</code> button to continue when you're finished
+Please watch the video below, then <a href = "https://ursinus.instructure.com/courses/19292/assignments/231249">click here</a> to complete a brief math exercise.  When you're ready, click the <code>Next</code> button to continue to the next topic
 </p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/o7XgayhZtiI?si=XjSrRLB5zQ9gbTui" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
