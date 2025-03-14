@@ -6,7 +6,7 @@ excerpt: "CS 372 Module 15: Z-Transform on Averages And Combs"
 
 info:
   prev: "./Video1"
-  next: "./Video2b"
+  next: "./Video3"
   comments: "true"
 ---
 
