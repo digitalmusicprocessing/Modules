@@ -21,4 +21,4 @@ Please watch the video below, and click the <code>Next</code> button to continue
 
 <h2>Notes</h2>
 
-<iframe src = "../images/Module16/MatrixBumps.html" width="700" height="3500">
+<iframe src = "../images/Module16/MatrixBumps.html" width="700" height="5000">

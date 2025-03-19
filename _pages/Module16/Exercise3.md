@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module16/Exercise3"
 title: "CS 372: Module 16: Matrix Exercise"
 excerpt: "CS 372: Module 16: Matrix Exercise"
-canvasasmtid: "172213"
+canvasasmtid: "219619"
 canvaspoints: "2"
 canvashalftries: 5
 
@@ -22,27 +23,24 @@ processor:
   correctfeedback: "Correct!!" 
   incorrectfeedback: "Try again"
   submitformlink: false
-  feedbackprocess: | 
-    feedback.setValue("" + pyodide.globals.avg + "");
   correctcheck: |
-    "" + pyodide.globals.avg == "5,4,6,6,4"
+    pyodide.globals.get("avg") == "5,4,6,6,4"
   incorrectchecks:
     - incorrectcheck: |
-        "" + pyodide.globals.avg == "0,0,0,0,0"
+        pyodide.globals.get("avg") == "0,0,0,0,0"
       feedback: "Try again. It looks like you're still returning the dummy values." 
 
     - incorrectcheck: |
-        "" + pyodide.globals.avg == "56,46,62,64,40"
+        pyodide.globals.get("avg") == "56,46,62,64,40"
       feedback: "Try again.  You're very close!  Be sure to divided the averages by M." 
 
 
 files:
-  - filename: "Student Code"
+  - filename: "student.py"
     name: driver
     ismain: false
     isreadonly: false
     isvisible: true
-    height: 450
     code: | 
           import numpy as np
 
@@ -71,7 +69,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -79,7 +77,9 @@ files:
     code: |
         np.random.seed(0)
         A = 10*np.random.rand(10, 5)
-        avg = average_columns(A)
+        avg = average_columns(A).flatten()
         avg = np.array(avg, dtype=int)
-        
+        avg = ",".join([str(x) for x in avg])
+
+openFilesOnLoad: ["main.py", "student.py"]     
 ---
