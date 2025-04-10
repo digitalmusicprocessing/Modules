@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module22/Exercise1"
 title: "CS 372: Module 22: Softmax"
 excerpt: "CS 372: Module 22: Softmax"
-canvasasmtid: "174031"
+canvasasmtid: "219629"
 canvaspoints: "2"
 canvashalftries: 5
 
@@ -25,20 +26,18 @@ processor:
     let ref = 0.18184;
     let tol = 0.001
   correctcheck: |
-    Math.abs(pyodide.globals.res[0] - ref) < tol
+    Math.abs(pyodide.globals.get("res") - ref) < tol
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.res == 0
-      feedback: "Try again.  It looks like you're still returning 0, but you need to evaluate the neural network layers in a loop" 
+        pyodide.globals.get("res") == 0
+      feedback: "Try again.  It looks like you're still returning 0, but you need to evaluate the softmax function" 
 
 files:
 
-  - filename: "Student Code"
-    name: driver
+  - filename: "student.py"
     ismain: false
     isreadonly: false
     isvisible: true
-    height: 600
     code: | 
         import numpy as np
 
@@ -62,16 +61,15 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
-    name: main
     isreadonly: true
     isvisible: true
     code: |
         np.random.seed(0)
         u = np.random.randn(10)
-        res = softmax(u)
+        res = softmax(u)[0]
 
         
-        
+openFilesOnLoad: ["main.py", "student.py"]
 ---
