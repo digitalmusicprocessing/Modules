@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module20/Exercise5"
 title: "CS 372: Module 20: Dataset Indexing"
 excerpt: "CS 372: Module 20: Dataset Indexing"
-canvasasmtid: "173763"
+canvasasmtid: "219626"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -24,23 +25,21 @@ processor:
   feedbackprocess: | 
     
   correctcheck: |
-    pyodide.globals.out == ".1.4.9.16.25.36.49.64.81.100."
+    pyodide.globals.get("out") == ".1.4.9.16.25.36.49.64.81.100."
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.out == "."
+        pyodide.globals.get("out") == "."
       feedback: "Try again.  It looks like you might not be returning the correct length.  Try returning <code>self.N</code>" 
     - incorrectcheck: |
-        pyodide.globals.out == ".0.1.4.9.16.25.36.49.64.81." 
+        pyodide.globals.get("out") == ".0.1.4.9.16.25.36.49.64.81." 
       feedback: "Try again.  You're very close!  Just be sure that the element at index 0 is 1, not 0." 
 
 files:
 
-  - filename: "Student Code"
-    name: driver
+  - filename: "student.py"
     ismain: false
     isreadonly: false
     isvisible: true
-    height: 400
     code: | 
         import numpy as np
 
@@ -58,7 +57,7 @@ files:
 
 
 
-  - filename: "Test Code Block"
+  - filename: "test.py"
     ismain: true
     name: main
     isreadonly: true
@@ -72,4 +71,5 @@ files:
 
         
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---

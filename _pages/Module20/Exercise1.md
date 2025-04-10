@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module20/Exercise1"
 title: "CS 372: Module 20: Grid Search"
 excerpt: "CS 372: Module 20: Grid Search"
-canvasasmtid: "173603"
+canvasasmtid: "219627"
 canvaspoints: "1.5"
 canvashalftries: 5
 
@@ -25,20 +26,18 @@ processor:
     let ref = 0.5375;
     let tol = 0.1
   correctcheck: |
-    Math.abs(pyodide.globals.res - ref) < tol
+    Math.abs(pyodide.globals.get("res") - ref) < tol
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.res == 0
+        pyodide.globals.get("res") == 0
       feedback: "Try again.  It looks like you're still returning c=0, but you need to find the c that minimizes the loss function" 
 
 files:
 
-  - filename: "Student Code"
-    name: driver
+  - filename: "student.py"
     ismain: false
     isreadonly: false
     isvisible: true
-    height: 400
     code: | 
         import numpy as np
 
@@ -49,19 +48,20 @@ files:
             return np.sum((Y - f(X))**2)
 
         def grid_search(X, Y):
+            ## Step 1: Compute the squared loss for each c on a grid
             cs = np.linspace(-3, 3, 1000)
             losses = np.zeros_like(cs)
             for i in range(len(cs)):
                 c = cs[i]
                 f = lambda x: fc(c=c, x=X)
                 losses[i] = loss_squared(X, Y, f)
-            ## TODO: Return the c that minimizes the squared loss
-
+            ## TODO Step 2: Return the c that minimizes the squared loss
+            
             return 0 # TODO: This is a dummy
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
     name: main
     isreadonly: true
@@ -79,4 +79,5 @@ files:
 
         
         
+openFilesOnLoad: ["main.py", "student.py"]
 ---
