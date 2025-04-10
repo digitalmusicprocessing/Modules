@@ -10,12 +10,9 @@ info:
 ---
 
 <p>
-Watch the two videos below, and click the <code>Next</code> button to continue when you're finished
+Watch the videos below to go over the exercise we did in class, and click the <code>Next</code> button to continue when you're finished
 </p>
 
-<p>
-We'll be focusing on deep neural networks in this unit, but if you want to know about the zoo of other supervised learning techniques that are out there, visit <a href = "https://scikit-learn.org/stable/supervised_learning.html#supervised-learning">this link</a> to start.
-</p>
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/K3oluF0ChpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

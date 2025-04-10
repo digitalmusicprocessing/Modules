@@ -1,9 +1,10 @@
 ---
-layout: exercise_pyodide
+layout: exercise
+language: "pyodide"
 permalink: "Module21/Exercise1"
 title: "CS 372: Module 21: Evaluating Feedforward Neural Nets"
 excerpt: "CS 372: Module 21: Evaluating Feedforward Neural Nets"
-canvasasmtid: "173846"
+canvasasmtid: "219628"
 canvaspoints: "2.5"
 canvashalftries: 5
 
@@ -25,20 +26,18 @@ processor:
     let ref = 0.18348;
     let tol = 0.05
   correctcheck: |
-    Math.abs(pyodide.globals.res - ref) < tol
+    Math.abs(pyodide.globals.get("res") - ref) < tol
   incorrectchecks:
     - incorrectcheck: |
-        pyodide.globals.res == 0
-      feedback: "Try again.  It looks like you're still returning 0, but you need to evaluate the neural network layers in a loop" 
+        pyodide.globals.get("res") == 0
+      feedback: "Try again.  It looks like you're still returning the dummy value, but you need to evaluate the neural network layers in a loop" 
 
 files:
 
-  - filename: "Student Code"
-    name: driver
+  - filename: "student.py"
     ismain: false
     isreadonly: false
     isvisible: true
-    height: 600
     code: | 
         import numpy as np
 
@@ -64,13 +63,12 @@ files:
             """
             ## TODO: Evaluate the neural network on an input x
 
-            return 0 # TODO: This is a dummy
+            return np.array([0]) # TODO: This is a dummy
 
 
 
-  - filename: "Test Code Block"
+  - filename: "main.py"
     ismain: true
-    name: main
     isreadonly: true
     isvisible: true
     code: |
@@ -78,8 +76,8 @@ files:
         As = [np.random.randn(4, 3), np.random.randn(5, 4), np.random.randn(1, 5)]
         bs = [np.random.randn(4), np.random.randn(5), np.random.randn(1)]
         x = np.random.randn(3)
-        res = nn_forward(As, bs, x)
+        res = nn_forward(As, bs, x)[0]
 
         
-        
+openFilesOnLoad: ["main.py", "student.py"]
 ---
